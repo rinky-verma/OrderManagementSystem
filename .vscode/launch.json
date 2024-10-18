@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MainModule",
+            "request": "launch",
+            "mainClass": "main.java.main.MainModule",
+            "classPaths": ["bin", "src/main/resources"], // Correct way to add resources
+            "cwd": "${workspaceFolder}" // Set working directory
+        }
+    ]
+}
+
